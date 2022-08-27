@@ -14,6 +14,9 @@ const userSchema = new mongoose.Schema({
     skills:{type:Array,default:[]},
     experience:{type:Array,default:[]},
     projects:{type:Array,default:[]},
+    declaration:{type:String , default:""},
+    achievements:{type:Array,default:[]},
+    intrests:{type:Array,default:[]},
 } , {
     timestamps:true
 })
