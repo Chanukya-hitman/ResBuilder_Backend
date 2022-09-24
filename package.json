@@ -2,12 +2,12 @@
     "name": "rb",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
-    "start": "node index.js",
+    "main": "server.js",
+    "start": "node server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "serve": "nodemon server.js",
-        "start": "node index.js"
+        "start": "node server.js"
     },
     "author": "",
     "license": "ISC",
